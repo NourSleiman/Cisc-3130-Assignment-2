@@ -1,4 +1,4 @@
-# Cisc-3130-Assignment-2
+# Assignment-2
 
 Four csv files are stored in an array.
 
