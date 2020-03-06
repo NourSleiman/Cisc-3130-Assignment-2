@@ -7,3 +7,5 @@ The songs from each file are stored in a separate array then put into an arrayLi
 The songs in the arrayList are then inserted into the queue and printed out to an output file called "QueueOutput.txt".
 
 The songs removed from the queue are placed into the stack as the history list. The added songs into the stack are also written out to a file called "StackHistoryOutput.txt".
+
+Both output files are in the output folder found in the data folder.
