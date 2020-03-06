@@ -36,7 +36,7 @@ public class PlayList {
     //creates a queue. 
     //The elements in the arrayList are put into one queue and written into a file.
     Queue list = new Queue();
-    PrintWriter pw = new PrintWriter("QueueOutput.txt");
+    PrintWriter pw = new PrintWriter("../data/output/QueueOutput.txt");
     for(int i = 0; i < Songs.size(); i++) {
       list.insertLast(Songs.get(i));
       pw.println(Songs.get(i));
@@ -46,7 +46,7 @@ public class PlayList {
     //creates a stack. 
     //The elements removed fromthe queue are put into the stack and written into a file.
     HistoryList history = new HistoryList();
-    PrintWriter writer = new PrintWriter("StackHistoryOutput.txt");
+    PrintWriter writer = new PrintWriter("../data/output/StackHistoryOutput.txt");
     for(int i = 0; i <Songs.size(); i++) {
       history.addSong(list.removeFirst());
       writer.println(history.LastListened());
