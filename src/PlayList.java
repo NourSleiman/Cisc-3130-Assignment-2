@@ -3,8 +3,8 @@ import java.io.*;
 
 public class PlayList {
   public static void main(String[] args) throws Exception{ 
-    String[] files = new String[]{"regional-global-weekly-2020-01-31--2020-02-07.csv", "regional-global-weekly-2020-02-07--2020-02-14.csv",
-                                  "regional-global-weekly-2020-02-14--2020-02-21.csv", "regional-global-weekly-2020-02-21--2020-02-28.csv"};
+    String[] files = new String[]{"../data/input/regional-global-weekly-2020-01-31--2020-02-07.csv", "../data/input/regional-global-weekly-2020-02-07--2020-02-14.csv",
+                                  "../data/input/regional-global-weekly-2020-02-14--2020-02-21.csv", "../data/input/regional-global-weekly-2020-02-21--2020-02-28.csv"};
     //there are 200 songs in each file
     String[] ReadSongs = new String[200];
     ArrayList<String> Songs = new ArrayList<>();
